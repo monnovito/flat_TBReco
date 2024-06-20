@@ -2,7 +2,7 @@
 a simple way to extract flat results from TBReco C++ program. This version is specified for Test Beam with P0_RM1 and P2_M01 chambers.
 
 1. DummyAna.cxx and DummyAna.h are modified class files which help us to extract flat result from TBReco
-2. Substitute DummyAna.cxx in TBReco/Root with the one avaible on this repository
+2. Substitute DummyAna.cxx in TBReco/Root with the one avaible in this repository
 3. Substitute DummyAna.h in TBReco/Root with the one avaible in this repository
 4. In TBReco.C, add DummyAna to the vector _dummy_analyses. 
 ```
